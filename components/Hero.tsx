@@ -26,17 +26,17 @@ export default function Hero() {
             신규 설치부터 이전, 분해 세척까지. 원하는 날짜와 시간을 달력에서 바로 확인하고 예약하세요.
           </p>
 
-          <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a
               href="#booking"
-              className="flex items-center justify-center gap-2 rounded-lg bg-brand px-6 py-4 font-bold hover:bg-brand-600"
+              className="flex items-center justify-center gap-2 rounded-lg bg-brand px-6 py-4 font-bold whitespace-nowrap hover:bg-brand-600"
             >
               <CalendarCheck size={20} />
               예약 가능한 날짜 보기
             </a>
             <a
               href={telHref}
-              className="flex items-center justify-center gap-2 rounded-lg border border-white/25 px-6 py-4 font-bold hover:bg-white/10"
+              className="flex items-center justify-center gap-2 rounded-lg border border-white/25 px-6 py-4 font-bold whitespace-nowrap hover:bg-white/10"
             >
               <Phone size={20} />
               전화 상담 {site.phone}
