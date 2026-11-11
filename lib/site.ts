@@ -8,7 +8,7 @@ export const site = {
   brands: ["삼성", "LG", "캐리어", "위니아", "기타 브랜드"],
 
   // 푸터 사업자 정보
-  owner: "○○○",
+  owner: "강준의",
   bizNo: "000-00-00000",
   address: "○○시 ○○구 ○○로 00",
   email: "contact@example.com",
